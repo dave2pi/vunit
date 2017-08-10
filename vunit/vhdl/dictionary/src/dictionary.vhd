@@ -26,7 +26,7 @@ package dictionary is
     constant key : string)
     return boolean;
 
-  constant dictionary_logger : logger_t := get_logger("vunit_lib.dictionary");
+  constant dictionary_logger : logger_t := get_logger("vunit_lib:dictionary");
 
 end package dictionary;
 
